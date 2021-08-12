@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(14, 39, 59), rgb(12, 109, 112));
+}
+
+header {
+  border-bottom: solid 1px white;
+  box-shadow: 2px 2px 2px 2px rgba(150, 212, 212, 0.8);
+  height: 60px;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(14, 39, 59);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+}
+
+section {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px white;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.568);
+  margin: 20px 10px;
+}
+
+form {
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.divForm {
+  display: flex;
+}
+
+label {
+  color: rgb(32, 27, 16);
+  margin: 7px 0px;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.74);;
+  outline: none;
+  padding-left: 10px;
+  height: 25px;
+  border-radius: 10px;
+  border: solid 1px white;
+}
+
+::placeholder {
+  color: rgb(141, 155, 165);
+  font-weight: bold;
+}
+
+button {
+  color: #fff;
+  padding: 3px;
+  font-weight: 500;
+  height: 25px;
+  width: 70px;
+  background-color: rgb(71, 73, 68);
+  font-size: 14px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px rgba(42, 46, 46, 0.8);
+  margin: 7px 3px;
+}
+
+.divButton {
+  margin-left: 7px;
+}
+
+.cuadrado {
+  background-color: rgb(177, 76, 10);
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-right: 40px solid transparent;
+  border-top: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 80px solid rgb(83, 42, 3);
+  margin-left: 20px;
+}
+
+.circulo {
+  background-color: rgb(112, 79, 9);
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  border-top: solid 1px white;
+  box-shadow: -2px -2px 2px 2px rgba(150, 212, 212, 0.8);
+  height: 60px;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(14, 39, 59);
+}
